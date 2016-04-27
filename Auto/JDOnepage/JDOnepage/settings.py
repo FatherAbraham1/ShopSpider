@@ -44,10 +44,10 @@ PROXIES = [
   {'ip_port': '122.224.249.122:8088', 'user_pass': ''},
 ]
 
-FEED_URI = u'file:\\\F:\Program_Stores\Python\2016-04-26\Auto\DataWare\JDDetail\JDOnePage.csv'
+FEED_URI = u'file:\\\F:\\GitRespo\\ShopSpider\\Auto\DataWare\\JDDetail\\咖啡.csv'
 FEED_FORMAT = 'CSV'
 COOKIES_ENABLED=False
-DOWNLOAD_DELAY=3
+DOWNLOAD_DELAY=1
 
 DUPEFILTER_CLASS = 'scrapy.dupefilters.BaseDupeFilter'
 # Configure maximum concurrent requests performed by Scrapy (default: 16)

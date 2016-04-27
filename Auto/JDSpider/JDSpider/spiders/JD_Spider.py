@@ -12,7 +12,7 @@ tot_item=0
 global trg_item
 trg_item=0
 
-f = open('F:\\Program_Stores\\Python\\2016-04-26\\Auto\\DataWare\\JDTotal\\咖啡.csv','w')
+f = open(u'F:\\GitRespo\\ShopSpider\\Auto\\DataWare\\JDTotal\\咖啡.csv','w')
 f.truncate()
 class JdSpider(CrawlSpider):
     name = "JDSpider"
